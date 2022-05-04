@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --text-white: #fff;
+  --backgroundColor: #09090a;
+}
+
 @base {
-  :root {
-    --text-color: #fff;
-  }
+}
+
+body {
+  /* @apply bg-[#09090A] text-zinc-100; */
 }

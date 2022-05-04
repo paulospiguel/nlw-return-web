@@ -2,9 +2,5 @@ import { Link } from "react-router-dom";
 import { Widget } from "../components/Widget";
 
 export function Home() {
-  return (
-    <div>
-      <Widget />
-    </div>
-  );
+  return <main className="flex-1"></main>;
 }
