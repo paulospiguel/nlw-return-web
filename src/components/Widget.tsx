@@ -1,11 +1,14 @@
 import { ChatTeardropDots } from "phosphor-react";
 import { Popover } from "@headlessui/react";
 import { motion } from "framer-motion";
-import { WidgetForm } from "./WidgetForm";
+import { WidgetForm } from "./WidgetFrom";
 
 export function Widget() {
   return (
-    <Popover className="absolute flex flex-col items-end bottom-4 right-4 md:right-8 md:bottom-8">
+    <Popover
+      id="widgetContainer"
+      className="absolute flex flex-col items-end bottom-4 right-4 md:right-8 md:bottom-8"
+    >
       <Popover.Panel>
         <motion.div
           initial={{ opacity: 0, y: 0, scale: 0.5 }}
